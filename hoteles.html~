@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Panorámicas envolventes </title>
+		<meta charset="utf-8" />
+		
+		<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.gallerax-0.2.js"></script>
+		<script type="text/javascript" src="js/filter.js"></script>		
+	
+		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		<!--[if IE 9]><link href="css/ie9fix.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 8]><link href="css/ie8fix.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 7]><link href="css/ie7fix.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 6]><link href="css/ie6fix.css" rel="stylesheet" type="text/css" /><![endif]-->		
+		
+	</head>
+	<body>
+	
+		<div id="wrapper">
+		
+			<div id="logo">
+				<h1>Fotos<span>Esféricas</span></h1>
+			</div>
+
+			<div id="categories">
+				<ul>
+					<li><a href="index.html" id="category1" class="filter">Inicio</a></li>
+					<li><a href="#" id="category2" class="current">Hoteles</a></li>
+					<li><a href="rles.htmlesidenciales.html" id="category3" class="filter">Residenciales</a></li>
+					<li><a href="inmobiliarias.html" id="category4" class="filter">Inmobiliarias</a></li>
+					<li><a href="comerciales.html" id="category5" class="filter">E.Comerciales</a></li>
+					<li><a href="turismo.html" id="category6" class="filter">Turismo	</a></li>
+					<li><a href="contacto.html" id="category7" class="filter">Contactos</a></li>
+				</ul>
+			</div>	
+			<div id="imgcentral">
+		<img src="images/hotelhd.jpg" alt="Hoteles">		
+	
+		</div>	
+
+			<!-- end -->	
+			
+	<div class="items">   	
+		<!-- <div id="items">  -->	
+       <h2>TOURES PARA HOTELES </h2>		
+		<div id="lat_der_1">
+		
+		
+		   	<ul >
+						<li > <a href= "hoteles/pla_cal/_html5/proj_hotel.html"><img src="images/hot_plaza_thumb.jpg" title="Hotel Plaza Las Americas - Cali" alt="" width=auto height="100" /></a></li>
+    			</ul>
+    			Hotel Plaza las Américas . Cali
+		</div>		
+		</div>
+			<div id="footer">
+				<p>
+					&copy; 2011 photoGallery, All Rights Reserved. 
+					<span>Gallerax : <a href="http://nodethirtythree.com/">nodethirtythree design</a>. Photos : <a href="http://www.pdphoto.org/">PD Photo</a>. Design : <a href="http://freewebsitetemplat.es" title="free website templates">Free Website Templates</a></span>
+				</p>
+			<div style="text-align: center; font-size: 0.75em;">Diseño descargado desde <a href="http://www.misplantillas.com/">plantillas web gratis</a>.</div>
+			</div>
+	
+	</div>
+</body>
+</html>

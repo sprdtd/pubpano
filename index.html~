@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=0.3, minimum-scale=0.1, maximum-scale=0.7, minimal-ui" />    
+ <meta name="apple-mobile-web-app-capable" content="yes" />   
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />    
+ <meta http-equiv="x-ua-compatible" content="IE=edge" />    
+		<title>Panorámicas envolventes </title>
+		
+		<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.gallerax-0.2.js"></script>
+		<script type="text/javascript" src="js/filter.js"></script>		
+	
+		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		<!--[if IE 9]><link href="css/ie9fix.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 8]><link href="css/ie8fix.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 7]><link href="css/ie7fix.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 6]><link href="css/ie6fix.css" rel="stylesheet" type="text/css" /><![endif]-->		
+		
+	</head>
+	<body>
+	
+		<div id="wrapper">
+		
+			<div id="logo">
+				<h1>Fotos<span>Esféricas</span></h1>
+			</div>
+			
+			<div id="categories">
+				<ul>
+					<li><a href="#" id="category1" class="current">Inicio</a></li>
+					<li><a href="hoteles.html" id="category2" class="filter">Hoteles</a></li>
+					<li><a href="residenciales.html" id="category3" class="filter">Residenciales</a></li>
+					<li><a href="inmobiliarias.html" id="category4" class="filter">Inmobiliarias</a></li>
+					<li><a href="comerciales.html" id="category5" class="filter">E.Comerciales</a></li>
+					<li><a href="turismo.html" id="category6" class="filter">Turismo	</a></li>
+					<li><a href="contacto.html" id="category7" class="filter">Contactos</a></li>
+				</ul>
+			</div>			
+
+			<div id="gallery">
+			
+			
+			<!-- start -->
+
+					<div id="output">
+						<img src="images/1.jpg" alt="" />
+					</div>
+					
+					<div id="captions">
+					
+						<div id="nav">
+							<ul>
+								<li><a href="#" class="navFirst">[ &lt;&lt; ]</a></li>
+								<li><a href="#" class="navPrevious">[ &lt; ]</a></li>
+								<li><a href="#" class="navNext">[ &gt; ]</a></li>
+								<li><a href="#" class="navLast">[ &gt;&gt; ]</a></li>
+								<li><a href="#" class="navStopAdvance">[ Stop ]</a></li>
+								<li><a href="#" class="navPlayAdvance active">[ Play ]</a></li>
+							</ul>
+						</div>	
+						
+						<span class="line">En esta linea no se que hacer</span>
+						
+						<br class="clear" />
+						
+						<span class="line2">Que debe hacer aqui?.</span>
+						
+						
+					</div>			
+
+					<ul class="thumbnails category1">
+						<li class="first"><img src="images/1.jpg" title="Hoteles ; Tour virtual por hoteles, mostrando la calidad de las locaciones y el magnifico servicio." alt="" width="100" height="75" /></li>
+						<li><img src="images/2_thumb.jpg" title="Conjuntos Residenciales; Visita los conjuntos y condominios de manera virtual" alt="" width="100" height="75" /></li>
+						<li><img src="images/3_thumb.jpg" title="Casas en fotos esféricas; Muestra tus casas o apartamentos a tus clientes" alt="" width="100" height="75" /></li>
+						<li><img src="images/4_thumb.jpg" title="Mi negocio ; Potencia tus ventas mostrando tu establecimiento comercial." alt="" width="100" height="75" /></li>
+						<li class="last"><img src="images/5_thumb.jpg" title="Sitios turísticos; Visibiliza tu ciudad, mira lo linda que es." alt="" width="100" height="75" /></li>
+					</ul>
+
+					<br class="clear" />
+				<!--	/*
+					<script type="text/javascript">
+
+						$.gallerax({
+							outputSelector: 		'#output img',				// Output selector
+							thumbnailsSelector:		'.thumbnails li img',		// Thumbnails selector
+							captionSelector:		'#captions .line',			// Caption selector
+							captionLines:			2,							// Caption lines (3 lines)
+							fade: 					'fast',						// Transition speed (fast)
+							navNextSelector:		'#nav a.navNext',			// 'Next' selector
+							navPreviousSelector:	'#nav a.navPrevious',		// 'Previous' selector
+							navFirstSelector:		'#nav a.navFirst',			// 'First' selector
+							navLastSelector:		'#nav a.navLast',			// 'Last' selector
+							navStopAdvanceSelector:	'#nav a.navStopAdvance',	// 'Stop Advance' selector
+							navPlayAdvanceSelector:	'#nav a.navPlayAdvance',	// 'Play Advance' selector
+							advanceFade:			'slow',						// Advance transition speed (slow)
+							advanceDelay:			4000,						// Advance delay (4 seconds)
+							advanceResume:			12000,						// Advance resume (12 seconds)
+							thumbnailsFunction: 	function(s) {				// Thumbnails function
+							
+								return s.replace(/_thumb\.jpg$/, '.jpg');
+								
+							}
+						});
+
+					</script>
+
+			<!-- end -->			
+			
+			
+			</div>
+
+			<div id="footer">
+				<p>
+					&copy; 2011 photoGallery, All Rights Reserved. 
+					<span>Gallerax : <a href="http://nodethirtythree.com/">nodethirtythree design</a>. Photos : <a href="http://www.pdphoto.org/">PD Photo</a>. Design : <a href="http://freewebsitetemplat.es" title="free website templates">Free Website Templates</a></span>
+				</p>
+			</div>
+			
+		</div>
+		
+<div style="text-align: center; font-size: 0.75em;">Diseño descargado desde <a href="http://www.misplantillas.com/">plantillas web gratis</a>.</div></body>
+</html>
